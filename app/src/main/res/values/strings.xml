@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">maendeleotracker</string>
+    <!-- Registration Strings -->
+    <string name="register_title">Register</string>
+    <string name="full_name">Full Name</string>
+    <string name="id_number">National ID Number</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register_button">Register</string>
+    <string name="login_redirect">Already have an account? Login</string>
+    <string name="login_title">Login</string>
+    <string name="login_button">Login</string>
+    <string name="no_account_register">Don't have an account? Register</string>
+</resources>

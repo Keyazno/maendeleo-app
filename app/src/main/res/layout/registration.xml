@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Full Name -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/register_title"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center" />
+
+    <EditText
+        android:id="@+id/etFullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/full_name"
+        android:padding="12dp"
+        android:background="@android:drawable/editbox_background"
+        android:inputType="textPersonName"
+        android:autofillHints="name"/>
+
+    <!-- ID Number -->
+    <EditText
+        android:id="@+id/etIdNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/id_number"
+        android:padding="12dp"
+        android:background="@android:drawable/editbox_background"
+        android:inputType="number"
+        android:autofillHints="number"/>
+
+    <!-- Phone Number -->
+    <EditText
+        android:id="@+id/etPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/phone_number"
+        android:padding="12dp"
+        android:background="@android:drawable/editbox_background"
+        android:inputType="phone"
+        android:autofillHints="phone"/>
+
+    <!-- Password -->
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:padding="12dp"
+        android:background="@android:drawable/editbox_background"
+        android:inputType="textPassword"
+        android:autofillHints="password"/>
+
+    <!-- Confirm Password -->
+    <EditText
+        android:id="@+id/etConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/confirm_password"
+        android:padding="12dp"
+        android:background="@android:drawable/editbox_background"
+        android:inputType="textPassword"
+        android:autofillHints="password"/>
+
+    <!-- Register Button -->
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register_button"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@android:color/white"
+        android:padding="12dp"
+        android:layout_marginTop="16dp" />
+
+    <!-- Login Redirect -->
+    <TextView
+        android:id="@+id/tvLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_redirect"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="10dp"
+        android:padding="16dp"
+        android:layout_gravity="center" />
+
+
+
+</LinearLayout>

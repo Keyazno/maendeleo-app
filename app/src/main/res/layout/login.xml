@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/tvLoginTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_title"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Phone Number -->
+        <EditText
+            android:id="@+id/etLoginPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/phone_number"
+            android:padding="12dp"
+            android:background="@android:drawable/editbox_background"
+            android:inputType="phone"
+            android:autofillHints="phone"/>
+
+        <!-- Password -->
+        <EditText
+            android:id="@+id/etLoginPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:padding="12dp"
+            android:background="@android:drawable/editbox_background"
+            android:inputType="textPassword"
+            android:autofillHints="password"/>
+
+        <!-- Login Button -->
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login_button"
+            android:backgroundTint="@color/purple_500"
+            android:textColor="@android:color/white"
+            android:padding="12dp"
+            android:layout_marginTop="16dp" />
+
+        <!-- Register Redirect -->
+        <TextView
+            android:id="@+id/tvRegisterRedirect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no_account_register"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="10dp"
+            android:padding="16dp"
+            android:layout_gravity="center" />
+        <TextView
+            android:id="@+id/tvRegisterRedirect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't have an account? Register"
+            android:textSize="14sp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_marginTop="10dp"
+            android:padding="16dp"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:focusable="true" />
+
+
+</LinearLayout>
