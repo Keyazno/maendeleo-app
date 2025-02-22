@@ -1,5 +1,4 @@
 <resources>
-    <string name="app_name">maendeleotracker</string>
     <!-- Registration Strings -->
     <string name="register_title">Register</string>
     <string name="full_name">Full Name</string>
@@ -12,4 +11,8 @@
     <string name="login_title">Login</string>
     <string name="login_button">Login</string>
     <string name="no_account_register">Don\'t have an account? Register</string>
+    <string name="app_name">Maendeleo Tracker</string>
+    <string name="welcome_text">Welcome to Maendeleo Tracker</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
 </resources>
